@@ -1,7 +1,5 @@
 /*Form Validation*/
-
 /*Name Check*/
-
 function nameCheck() {
     var nameMessage = "";
     if (document.getElementById("fullName").value.length < 1 || document.getElementById("fullName").value.length >= 25) 
@@ -14,9 +12,7 @@ function nameCheck() {
     }
         document.getElementById('nameMessage').innerHTML = nameMessage;
 }
-
 /*Password Check*/
-
 function passCheck() {
     var passMessage = "";
     if (document.getElementById("pword").value.length < 8 || document.getElementById("pword").value.length >= 25) 
@@ -29,9 +25,7 @@ function passCheck() {
     }
         document.getElementById('passMessage').innerHTML = passMessage;
 }
-
 /*Radio Check*/
-
 function radioColorCheck() 
 {
     var colorItems = document.forms[0].color;
@@ -63,9 +57,7 @@ function radioSizeCheck()
 	 document.getElementById('radio2Message').innerHTML = strMsg;
 	 
 }
-
 /*Quantity Check*/
-
 function quantCheck() 
 {
     var quantMessage = "";
@@ -83,17 +75,13 @@ function quantCheck()
     }
         document.getElementById('quantMessage').innerHTML = quantMessage;
 }
-
 /*Select Menu Check*/
-
 function selectCheck()
 {
     message = "Thanks!"
     document.getElementById("numberMessage").innerHTML = message;
 }
-
 /*Text Area Check*/
-
 function textAreaCheck() 
 {
     var characters = 500 - document.getElementById("comment").value.length;
@@ -102,9 +90,7 @@ function textAreaCheck()
     
     document.getElementById("commMessage").innerHTML = message;
 }
-
 /*Checkbox Check*/
-
 function checkCheckbox()
 {
     if(document.getElementById("checkbox").checked == true) {
@@ -116,9 +102,7 @@ function checkCheckbox()
         document.getElementById("checkMessage").innerHTML = message;
 }
 }
-
 /*Create a New Menu*/
-
 function setupStuff()
 {
 	/* Creating menus */

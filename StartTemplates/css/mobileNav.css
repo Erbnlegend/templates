@@ -1,3 +1,18 @@
+/*This creates an for navigation
+-Comes from top to bottom once on a click event
+-uses the .overlay {height: 0;}
+-change this to width to come from side
+Required: 
+
+function openNav() {
+    document.getElementById("mobileNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mobileNav").style.height = "0%";
+}
+*/
+
 @media only screen and (max-width: 600px) {
     .topNav a {
         display: none;

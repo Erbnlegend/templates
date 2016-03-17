@@ -1,3 +1,24 @@
+/*Used to create a lightbox type effect when opening windows ontop of each other
+-Good for galleries
+Required
+
+function popUp(pop,number) {
+    var toggleGallery = document.getElementById('gallery' + number);
+    var blanket = document.getElementById('blanket');
+    
+    if(toggleGallery.className == 'hide') {
+        toggleGallery.className = 'show'; 
+        blanket.className = 'show'; 
+    }
+    
+    else if (toggleGallery.className == 'show') {
+        toggleGallery.className = 'hide'; 
+        blanket.className = 'hide'; 
+    }
+}
+
+*/
+
 /*STYLES FOR CSS POPUP*/
 .hide {
     margin-top: -200%;

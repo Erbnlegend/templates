@@ -1,3 +1,5 @@
+// Smooth Scroll
+
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
@@ -14,6 +16,10 @@ $(document).ready(function(){
 });
 
 // topNav sticky bar
+/*Makes a bar appear at the top of the page once 
+they scroll past a certain area on the page
+*/
+
 $(document).ready(function(){
     var topNavTop = $('.topNav').offset().top;
     $(window).scroll(function() {
