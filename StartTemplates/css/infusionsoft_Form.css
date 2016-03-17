@@ -1,0 +1,18 @@
+/*Home Style Sheet for Lucy's Contact Form
+--Author: Aaron Erb
+--Date: 02/02/2016;
+*/
+
+.infusion-field {
+  margin: .5em 0;
+}
+
+.infusion-submit {
+    padding: 0;
+    margin: .5em 0;
+    float: left;
+}
+.infusion-submit input {
+    display: block;
+    padding: 5%;
+}
